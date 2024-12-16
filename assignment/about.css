@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about{
+    height: 1300px;
+    /* width: 100   px; */
+    background: url(assignment\ img/pexels-lood-goosen-508841-1235706.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.about img{
+    height: 250px;
+    position: relative;
+    position: absolute;
+    top: -60px;
+    bottom: 50px;
+    right: 0px;
+    left: 660px;
+}
+
+.about h2{
+    height: 180px;
+    background: url(assignment\ img/coofe\ 2.jpeg);
+    background-position: ;
+    /* background-repeat: no-repeat; */
+    background-size: cover;  
+    /* text-align: center ; */
+    /* background-color: rgb(5, 5, 5);     */
+    color: rgb(117, 55, 19);
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 60px 0px 0px 50px ;
+}
+
+.abt h3{
+    color:white;
+    font-size: 54px;
+    position: relative;
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    right: 0px;
+    left: 500px;
+}
+.abt p{
+    color: lavender;
+    text-align: start;
+    font-size: 30px;
+    position: relative;
+    position: absolute;
+    top: 360px;
+    bottom: 0px;
+    right: 500px;
+    left: 250px;
+
+}
+.abt img{
+    border-radius: 40px;
+    height: 450px;
+    position: relative;
+    position: absolute;
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    left: 1200px;
+}
+.btc h3{
+    color: white;
+    font-size: 54px;
+    position: relative;
+    position: absolute;
+    top: 750px;
+    bottom: 0px;
+    right: 0px;
+    left: 500px;
+}
+.btc p{
+    color: white;
+    text-align: start;
+    font-size: 30px;
+    position: relative;
+    position: absolute;
+    top: 860px;
+    bottom: 0px;
+    right: 500px;
+    left: 250px;
+
+}
+.btc img{
+    border-radius: 40px;
+    height: 450px;
+    position: relative;
+    position: absolute;
+    top: 750px;
+    bottom: 0px;
+    right: 0px;
+    left: 1200px;
+}

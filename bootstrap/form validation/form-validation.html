@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+<h1 class="bg-dark text-light text-center p-2 display-2 fw-bold ">Form velidation</h1>
+<div class="container">
+    <div class="row justify-contact-betwwn align-items-center d-flex mt-5">
+        <div class="col-lg-6">
+            <form onsubmit="return velidation()">
+                <div class="form-grp">
+                  <label for="exampleInputEmail1" class="form-label">USERNAME</label>
+                  <input type="username" class="form-control" id="username" aria-describedby="emailHelp">
+                  <span class="text-danger" id="usererror"></span>
+                </div>
+                <div class="form-grp">
+                  <label for="exampleInputPassword1" class="form-label">EMAIL</label>
+                  <input type="email" class="form-control" id="email">
+                  <span class="text-danger" id="emailerror"></span>
+
+                </div>
+                <div class="form-grp">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password">
+                  </div>
+                  <span class="text-danger" id="passworderror"></span>
+
+                  <div class="form-grp">
+                    <label for="exampleInputPassword1" class="form-label">NUMBER</label>
+                    <input type="number" class="form-control" id="number">
+                  <span class="text-danger" id="numbererror"></span>
+                  </div>
+                <button type="submit" class="btn btn-outline-primary mt-3">Submit</button>
+              </form>
+        </div>
+        <div class="col-lg-5">
+          <img src="https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=400" height="300px" class="w-100 rounded-3" alt="">
+       </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="form-velidation.js"></script>
+</body>
+</html>

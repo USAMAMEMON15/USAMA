@@ -1,0 +1,145 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.nav{background-color: black;
+    color: white;
+    padding: 30px;
+    /* border: 3px solid blue; */
+    box-shadow: 3px 3px 3px 3px rgb(130, 129, 129);
+    background: url(assignment\ img/coofe\ 2.jpeg);
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+
+}
+.nav ul li{
+
+    list-style: none;
+    float: left;
+padding: 0px 0px 60px 100px ;
+font-size: 20px;
+
+}
+.nav ul{
+    overflow: auto;
+    margin-left: -105px;
+        
+}
+.nav ul li a{
+    text-decoration:none;
+    color: white;
+
+}
+
+
+.nav img{
+height: 120px;
+float: left;
+width: 100px;
+/* margin-right: 700px;
+margin-top: -46px; */
+position: relative;
+position: absolute;
+top: -40px;
+left: 1420px;
+}
+
+.kav{
+    width: 100%;
+    height: 640px;
+background: url(assignment\ img/pexels-lina-1813466.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ }
+ .kav h2{
+     color: wheat;
+     text-align: left;
+     font-size: 60px;
+     padding-top: 80px;
+     padding-left: 30px;
+ }
+ .kav img{
+     height: 500px;
+     width: 500px;
+     padding: 0px 0px 100px 0px;
+     position: relative;
+     position: absolute;
+     top: 200px;
+     /* left: 500; */
+
+ }
+ .sav img{
+     height: 600px;
+     width: 400px;
+     padding: 0px 0px 0px 0px;
+     margin: -100px 0px 100px 740px;
+     border-radius:100px ;
+ }
+ .rav img{
+    height: 600px;
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+    margin: -100px 500px 120px 1170px;
+    border-radius:100px ;
+    /* border: 3px solid brown; */
+}
+
+
+
+ 
+
+ /* @media only screen and (min-width:200px) and (max-width:576px) {
+     .nav{
+     width: 100%;
+     /* display: block;  */
+     overflow: auto;
+    
+    .nav ul li{
+        font-size: 10px;
+        padding: 20px;
+    }
+    .nav img{
+        position: relative;
+        position: absolute;
+        left: ;
+        right: ;
+    }
+
+
+ .nav ul li a:hover{
+     cursor: pointer;
+     color: brown;
+ }
+ 
+ /* .nav{
+     background: url(https://images.pexels.com/photos/7311920/pexels-photo-7311920.jpeg?auto=compress&cs=tinysrgb&w=600);
+     height: 60px;
+ } */
+
+ .nav ul li:hover{
+    cursor: pointer;
+    color: brown;
+} 
+#signh1{
+    background: url(assignment\ img/coofe\ 2.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+}
+#btnn{
+   border: 1px solid black;
+}
+#btnn:hover{
+    background-color: brown;
+    color: white;
+ }

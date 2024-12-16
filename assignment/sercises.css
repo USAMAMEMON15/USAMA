@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.training-section{
+    height: 1000px;
+    width: 100%;
+    /* border: 3px solid red; */
+    background:url(assignment\ img/pexels-lina-1813466.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+.training-section img{
+    height: 250px;
+    position: relative;
+    position: absolute;
+    top: -60px;
+    bottom: 50px;
+    right: 0px;
+    left: 660px;
+}
+.training-section h2{
+    height: 200px;
+    background: url(assignment\ img/coofe\ 2.jpeg);
+    background-position: ;
+    /* background-repeat: no-repeat; */
+    background-size: cover;  
+    /* text-align: center ; */
+    /* background-color: rgb(5, 5, 5);     */
+    color: rgb(117, 55, 19);
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 60px 0px 0px 50px ;
+}
+ 
+.container{
+    width: 1500px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.training-item1{
+    background: url(assignment\ img/pexels-blankspace-2907301.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 23%;
+    margin: 1%;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: peru;
+    padding: 40px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px peru;
+    position: relative;
+    /* top: 5px; */
+}
+.training-item2{
+    /* font-size: 40px; */
+    background: url(assignment\ img/pexels-chevanon-312418.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 23%;
+    margin: 1%;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: peru;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px peru;
+    }
+    .training-item3{
+        font-size: 30px;   
+        background: url(assignment\ img/pexels-eyad-tariq-2217318-3879495.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-basis: 23%;
+        margin: 1%;
+        text-align: center;
+        background-color: black;
+        color:peru;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 3px peru;
+        }
+        .training-item4{
+            font-size: 30px;
+            background: url(assignment\ img/pexels-fotios-photos-1207918.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex-basis: 23%;
+            margin: 1%;
+            text-align: center;
+            background-color: black;
+            color:peru;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px 3px peru;
+            }
+            .training-item5{
+                font-size: 30px;
+                background: url(assignment\ img/pexels-lina-1813466.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                flex-basis: 23%;
+                margin: 1%;
+                text-align: center;
+                background-color: black;
+                color: peru;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 3px 3px 3px 3px peru;
+                }
+                .training-item6{
+                    font-size: 30px;
+                    background: url(assignment\ img/pexels-lood-goosen-508841-1235706.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    flex-basis: 23%;
+                    margin: 1%;
+                    text-align: center;
+                    background-color: black;
+                    color: peru;
+                    padding: 10px;
+                    border-radius: 10px;
+                    box-shadow: 3px 3px 3px 3px peru;
+                    }
+                    .training-item7{
+                        font-size: 30px;
+                        background: url(assignment\ img/pexels-ngqah83-885021.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        flex-basis: 23%;
+                        margin: 1%;
+                        text-align: center;
+                        background-color: black;
+                        color: peru;
+                        padding: 10px;
+                        border-radius: 10px;
+                        box-shadow: 3px 3px 3px 3px peru;
+                        }
+                        .training-item8{
+                            font-size: 30px; 
+                            background: url(assignment\ img/pexels-samerdaboul-1627933.jpg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            flex-basis: 23%;
+                            margin: 1%;
+                            text-align: center;
+                            background-color: black;
+                            color: peru;
+                            padding: 10px;
+                            border-radius: 10px;
+                            box-shadow: 3px 3px 3px 3px peru;
+                        }
+.training-item h3{
+    padding top:10px;
+}
+
+.container button{ 
+    margin-top: 230px;
+    padding: 14px 28px;
+    border-radius: 100px;
+    border: none;
+    background-color:black;
+    color:blanchedalmond;
+    box-shadow: 3px 3px 3px 3px peru;
+}
+.training-item1:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+.training-item2:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+.training-item3:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+.training-item4:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+.training-item5:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+.training-item6:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+.training-item7:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+.training-item8:hover{
+    color: white;
+    
+    box-shadow: 5px 5px 5px 5px  rgb(250, 250, 248);
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: rgb(253, 251, 251);
+   color: rgb(12, 12, 12);
+   /* box-shadow: 3px 3px 3px 3px rgb(243, 241, 237); */
+   /* border: 5px solid beige; */
+   /* transition: 4s; */
+   /* transform: scale(1.5); */
+
+   box-shadow: none;
+   cursor: pointer;
+}

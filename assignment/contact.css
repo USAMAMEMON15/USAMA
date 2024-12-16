@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ 
+ .pav{
+    background: url(assignment\ img/pexels-ngqah83-885021.jpg);
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-size: cover;
+     height: 800px;
+     background-color: whitesmoke;
+     color: black;
+     position: relative;
+     /* position: absolute; */
+     top: 0px;
+     font-size: 30px;
+ }
+ .pav h2{
+    height: 200px;
+    background: url(assignment\ img/coofe\ 2.jpeg);
+    background-position: ;
+    /* background-repeat: no-repeat; */
+    background-size: cover;  
+    /* text-align: center ; */
+    /* background-color: rgb(5, 5, 5);     */
+    color: rgb(117, 55, 19);
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 60px 0px 0px 50px ;
+
+ }
+ #pa{
+     height: 50px;
+     position: relative;
+     position: absolute;
+     top: 340px;
+     left: 10px;
+     right: 0px;
+     bottom: 0px;
+ }
+ #ma{
+    height: 50px;
+    position: relative;
+    position: absolute;
+    top: 410px;
+    left: 10px;
+    right: 0px;
+    bottom: 0px;
+}
+#na{
+    height: 75px;
+    position: relative;
+    position: absolute;
+    top: 465px;
+    left: -15px;
+    right: 0px;
+    bottom: 0px;
+}
+#int{
+    height: 45px;
+    position: relative;
+    position: absolute;
+    top: 540px;
+    left: 12px;
+    right: 0px;
+    bottom: 0px;
+}
+#com{
+    height: 45px;
+    position: relative;
+    position: absolute;
+    top: 611px;
+    left: 12px;
+    right: 0px;
+    bottom: 0px;
+}
+#mk{
+    margin-left: 86px;
+}
+ .pav img{
+        height: 250px;
+        position: relative;
+        position: absolute;
+        top: -60px;
+        bottom: 50px;
+        right: 0px;
+        left: 660px;
+    
+ }
+ .pav h5{
+     margin-left: 90px;
+     text-align: justify;
+
+ }
+ .pav h3{
+     /* text-align: center;  */
+     font-size: 50px;
+     color: rgb(117, 55, 19);
+     animation: how;
+     animation-duration: 5s;
+     animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+     animation-iteration-count: infinite;
+     position: relative;
+ }
+ @keyframes how{
+     from{
+         right:10px;
+         left:10px;
+     }
+     to{
+         left:1000px;
+         right: 470px;
+     }

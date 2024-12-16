@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <h2 class="text-center display-2 fw-bold bg-dark text-white">COMPARASION PRODUCT!</h2>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <table class="table">
+                    <tr>
+                        <th>SELECT YOUR PRODUCT</th>
+                        <td class="col-lg-6">
+                            <select name="" class="form-control" id="select1" onchange="item1(this.value)"><option value="">----Select your products----</option></select>
+                        </td>
+
+                        <td class="col-lg-6">
+                            <select name="" class="form-control" id="select2" onchange="item2(this.value)"><option value="">----Select your products----</option></select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Product Images</th>
+                        <td>
+                            <img src="" id="img1" alt="">
+                        </td>
+
+                        <td>
+                            <img src="" id="img2" alt="">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Product Brand</th>
+                        <td id="brand1"></td>
+                        <td id="brand2"></td>
+                    </tr>
+
+                    <tr>
+                        <th>Product Price</th>
+                        <td id="price1"></td>
+                        <td id="price2"></td>
+                    </tr>
+
+                    <tr>
+                        <th>Product Description</th>
+                        <td id="desc1"></td>
+                        <td id="desc2"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="comparisondata.js"></script>
+    <script src="comparisonfunction.js"></script>
+</body>
+</html>

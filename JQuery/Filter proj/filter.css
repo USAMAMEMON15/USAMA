@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: cornsilk;
+}
+.col{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    /* border: 3px solid wheat; */
+    box-shadow: 2px 2px 2px 2px white;
+    padding: 8px 15px;
+    margin: 30px 15px;
+    border-radius: 10px;
+}
+ul li:hover{
+    cursor: pointer;
+    scale: 1.09;
+    background-color: white;
+    color: black;
+}
+.item-detail img{
+    height: 310px;
+    width: 350px;
+    padding: 20px;
+    /* box-shadow: 1px 1px 3px 1px white; */
+    border-radius: 40px;
+}
+.row img:hover{
+    cursor: pointer;
+    scale: 1.01;
+    /* box-shadow: 1px 1px 3px 1px white; */
+    
+}
+.item-menu .active{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 3px 1px rgb(83, 83, 83);
+
+}
