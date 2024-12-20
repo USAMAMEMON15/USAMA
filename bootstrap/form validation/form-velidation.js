@@ -45,8 +45,8 @@ function velidation(){
 
 
 if (userCheck.test(username) && emailCheck.test(email) && passwordCheck.test(password) && numberCheck.test(number)){
-    swal("FORM SUMBITED!", "WAIT FOR EMAIL!", "success")
-      return false;
+    swal("Form Submit Successful", "Waiting for the email", "success")
+    return false;
 }
 }
 

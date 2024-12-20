@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color: white;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+#nav{
+    background: linear-gradient(to left,black,rgba(255, 255, 255, 0.652));
+    color: black;    
+}
+#nav ul{
+    color: rgba(0, 0, 0, 0.867);
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 200px;
+    /* letter-spacing: 10p; */
+
+}
+#nav ul li a{
+    list-style: none;
+    float: left;
+    padding: 15px;
+    /* background-color: black  ; */
+    color: rgb(240, 240, 240);
+    font-weight: 400;
+}
+.container img{
+    width: 400px;
+    height: 400px;
+    padding: 30px 50px;
+    border-radius: 65px;
+}
+#sign{
+    margin-left:730px ;
+    background: linear-gradient(to top,black,rgba(255, 255, 255, 0.619));
+    border-radius:10px ;
+    color: rgba(255, 255, 255, 0.804);
+    border: 20px think white; 
+}
+#span{
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 3px;
+    /* font-size: 32px; */
+}
+#signh1{
+    color: rgba(0, 0, 0, 0.857);
+    background: linear-gradient(to left,black,rgba(46, 46, 46, 0.285));
+
+}
+#nav ul li a:hover{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    
+}
+#sign:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+
+}
+@media only screen and (min-width:200px) and (max-width:900px) {
+    #sign{
+        position: fixed;
+        top: 11px;
+        left: -400px;
+        width: 30%;
+       padding-left: 80px ;
+        font-size: 20px;/
+        letter-spacing: 50px; */
+        /* justify-content:center !important; */
+        }
+    }
+
